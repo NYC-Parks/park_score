@@ -50,7 +50,7 @@ jupyter notebook
 ```
 
 #### Set the kernel YOURENVNAME. Below, the kernel is set to park_score_public.
-![Select Kernel](stage/select_kernel.jpg)
+![Select Kernel](SelectKernel.jpg)
 
 
 #### Enjoy!
