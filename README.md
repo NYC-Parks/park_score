@@ -50,7 +50,7 @@ jupyter notebook
 ```
 
 #### Set the kernel YOURENVNAME. Below, the kernel is set to park_score_public.
-![Select Kernel](SelectKernel.jpg)
+![Select Kernel](media/SelectKernel.jpg)
 
 
 #### Enjoy!
@@ -61,3 +61,12 @@ jupyter notebook
 ```
 conda deactivate YOURENVNAME
 ```
+
+## Contributors
+<table>
+  <tbody>
+    <td align="center" valign="top" width="14.28%"><a href="http://github.com/lilianchin6"><img src="media/LilianIcon.png" width="90px;"  alt="Lilian Chin"/><br /><sub><b>Lilian Chin</b></sub></a><br /></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/amaucoin"><img src="media/ArthurIcon.jpg" width="90px;" height="90px;" alt="Arthur Aucoin"/><br /><sub><b>Arthur Aucoin</b></sub></a><br /></td>
+  </tbody>
+</table>
+
