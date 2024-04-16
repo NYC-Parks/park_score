@@ -1,10 +1,10 @@
 ## About the Project
-The Parks Condition Index (PCI) is a comprehensive score ranging from 0 to 100, derived from a vast amount of highly vetted underlying Parks Inspection Program (PIP) data. This score serves as a broad indicator and offers insight into the overall condition of your neighborhood park. It encompasses various aspects, including cleanliness metrics such as litter, structural elements such as play equipment, landscape features such as lawns and trees, and the state of amenities within restrooms.
+The Park Condition Score (PCS) is a comprehensive score ranging from 0 to 100, derived from a vast amount of highly vetted underlying Parks Inspection Program (PIP) data. This score serves as a broad indicator and offers insight into the overall condition of your neighborhood park. It encompasses various aspects, including cleanliness metrics such as litter, structural elements such as play equipment, landscape features such as lawns and trees, and the state of amenities within restrooms.
 
 ## How It's Calculated
-The score evaluates seventeen distinct features across three categories: Cleanliness, Structural and Landscape. Cleanliness carries the greatest weight, accounting for 50% of the PCI, followed by Structural at 30% and Landscape at 20%. 
+The score evaluates seventeen distinct features across three categories: Cleanliness, Structural and Landscape. Cleanliness carries the greatest weight, accounting for 50% of the PCS, followed by Structural at 30% and Landscape at 20%. 
 
-Each feature in these categories is rated as Pass (A), Not Rated (N), Unacceptable (U), or Unacceptable for Site (U/S). When an aspect is rated as U or U/S, deductions are applied to the PCI.  The weights for each aspect vary within their respective categories; for instance, litter and restroom litter heavily influence the Cleanliness category, play equipment and paved surface heavily impact the Structural scores, and lawns and trees heavily affect the Landscape category. 
+Each feature in these categories is rated as Pass (A), Not Rated (N), Unacceptable (U), or Unacceptable for Site (U/S). When an aspect is rated as U or U/S, deductions are applied to the PCS.  The weights for each aspect vary within their respective categories; for instance, litter and restroom litter heavily influence the Cleanliness category, play equipment and paved surface heavily impact the Structural scores, and lawns and trees heavily affect the Landscape category. 
 
 The distinction between a U and U/S deduction is a magnitude of 3. When features receive a Not Rated (N), deductions are normalized. For example, if restrooms are absent from the site, penalties for other Cleanliness feature are adjusted accordingly.  
 
