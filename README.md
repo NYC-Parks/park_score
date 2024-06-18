@@ -22,6 +22,8 @@ Below is an example of weights for a park that includes restrooms and all featur
 | graffiti 5% | fences 5% | water bodies 5% | 
 | ice/weeds 5% | PR structural 5% |    |
 
+PR = Public Restroom
+
 </div>
 
 
