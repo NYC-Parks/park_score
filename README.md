@@ -8,7 +8,7 @@ Each feature in these categories is rated as Pass (A), Not Rated (N), Unacceptab
 
 The distinction between a U and U/S deduction is a magnitude of 3. When features receive a Not Rated (N), deductions are normalized. For example, if restrooms are absent from the site, penalties for other Cleanliness feature are adjusted accordingly.  
 
-Below is an example of weights for a park that includes restrooms and all features within Structural and Landscape categories:
+Below is an example of weights for a park that includes restrooms and all features within Structural and Landscape categories (Note: PR = Public Restroom):
 
 <div align="center">
   
@@ -21,8 +21,6 @@ Below is an example of weights for a park that includes restrooms and all featur
 | PR graffiti 5% | sidewalks 10% | trails 5% | 
 | graffiti 5% | fences 5% | water bodies 5% | 
 | ice/weeds 5% | PR structural 5% |    |
-
-PR = Public Restroom
 
 </div>
 
