@@ -1,6 +1,9 @@
 ## About the Project
 The Park Condition Score (PCS) is a comprehensive score ranging from 0 to 100, derived from a vast amount of highly vetted underlying Parks Inspection Program (PIP) data. This score serves as a broad indicator and offers insight into the overall condition of your neighborhood park. It encompasses various aspects, including cleanliness metrics such as litter, structural elements such as play equipment, landscape features such as lawns and trees, and the state of amenities within restrooms.
 
+The Park Condition Score represents a 3-year rolling average with a 2-month lag. This means that the score reflects data from 3 years and 2 months prior to today's date. The scores displayed on the Parks website are updated daily at 4:00 AM.
+
+
 ## How It's Calculated
 The score evaluates seventeen distinct features across three categories: Cleanliness, Structural and Landscape. Cleanliness carries the greatest weight, accounting for 50% of the PCS, followed by Structural at 30% and Landscape at 20%. 
 
