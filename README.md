@@ -29,22 +29,58 @@ Below is an example of weights for a park that includes restrooms and all featur
 
 
 
-## Getting Started
+## Project Setup Guide
 
-#### Create a conda environment from the yml file
+This project assumes you have [Anaconda](https://www.anaconda.com/docs/getting-started/anaconda/install), [Jupyter](https://anaconda.org/anaconda/jupyter), and [Git](https://git-scm.com/downloads) installed. 
 
+## One-Time Setup (Initial Installation)
+
+These steps are only required once to set up the environment.
+
+### 1. Clone the Repository
+
+To clone the repository, run the following command in your **Git Bash**:
+```
+git clone https://github.com/NYC-Parks/park_score.git
+```
+
+### 2. Create the conda environment
+
+> [!NOTE]
+> The following steps will take place in **Anaconda Prompt**.
+
+To create the conda environment from the yml file to a specified path, open **Anaconda Prompt** and run the following command:
 ```
 conda env create --name YOURENVNAME --file park_score.yml
 ```
 
-#### Activate the environment
+To create the conda environment from file to a name (it will install the environment in the default location), run the following command:
 ```
-conda activate YOURENVNAME
+conda env create -f E:\path\to\envName.yml --name YOURENVNAME
 ```
 
-#### Add a kernel for your environment
+### 3. Install a kernel for Jupyter notebook for your new environment
+
+To install ipykernel (just once), run: 
 ```
-python -m ipykernel install --user --name=YOURENVNAME
+conda install ipykernel
+```
+
+To create new environment kernel for jupyter notebook, run: 
+```
+ipython kernel install --name=YOURENVNAME
+```
+
+For more information about jupyter notebooks and kernels, visit [this link](https://towardsdatascience.com/get-your-conda-environment-to-show-in-jupyter-notebooks-the-easy-way-17010b76e874/).
+
+
+## Usage (After Setup is Complete)
+
+Once installed, follow these steps each time you run the project.
+
+### 1. Activate your environment
+```
+conda activate YOURENVNAME
 ```
 
 #### Run the Jupyter notebook
@@ -56,11 +92,10 @@ jupyter notebook
 ![Select Kernel](media/SelectKernel.jpg)
 
 
-#### Enjoy!
+## After usage
 
------------------------------------------------------------
+### 1. Deactivate your environment
 
-#### To deactivate your environment
 ```
 conda deactivate YOURENVNAME
 ```
